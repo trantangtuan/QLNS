@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="101038ab-8532-4248-a33b-8388742f4198" absoluteBounds="0.75, 1.375, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataClasses1DataContext/KhoiPhongBan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ac1d652-dbd7-4af9-a6b8-67254c5ebc34" absoluteBounds="0.765, 1.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de809ce2-21d5-4b4b-8dda-2ba91562cb66" absoluteBounds="3.5, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses1DataContext/PhongBan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c885d46-b2e6-4c32-bdc5-1d74aabcb0c1" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.97199625651042); (3.5 : 1.97199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/KhoiPhongBan/KhoiPhongBan_PhongBan" />
+      <nodes>
+        <classShapeMoniker Id="101038ab-8532-4248-a33b-8388742f4198" />
+        <classShapeMoniker Id="de809ce2-21d5-4b4b-8dda-2ba91562cb66" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

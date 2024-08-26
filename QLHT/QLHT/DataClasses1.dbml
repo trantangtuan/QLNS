@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_NhanSu" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=QL_NhanSu;Integrated Security=True" SettingsObjectName="QLHT.Properties.Settings" SettingsPropertyName="QL_NhanSuConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KhoiPhongBan" Member="KhoiPhongBans">
+    <Type Name="KhoiPhongBan">
+      <Column Name="MaKhoiPhongBan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenKhoiPhongBan" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="KhoiPhongBan_PhongBan" Member="PhongBans" ThisKey="MaKhoiPhongBan" OtherKey="MaKhoiPhongBan" Type="PhongBan" />
+    </Type>
+  </Table>
+  
+  <Table Name="dbo.PhongBan" Member="PhongBans">
+    <Type Name="PhongBan">
+      <Column Name="MaPhongBan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Stt" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenPhongBan" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DoTuoiVeHuuNam" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DoTuoiVeHuuNu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoLaoDong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaKhoiPhongBan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="KhoiPhongBan_PhongBan" Member="KhoiPhongBan" ThisKey="MaKhoiPhongBan" OtherKey="MaKhoiPhongBan" Type="KhoiPhongBan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChungChi" Member="ChungChis">
+    <Type Name="ChungChi">
+      <Column Name="MaChungChi" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Stt" Type="System.Int32" DbType="Int IDENTITY NOT NULL" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenChungChi" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ThoiHan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BacLuong" Member="BacLuongs">
+    <Type Name="BacLuong">
+      <Column Name="MaBacLuong" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Stt" Type="System.Int32" DbType="Int IDENTITY NOT NULL" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ngay" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TenBacLuong" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Bac1" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac2" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac3" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac4" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac5" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac6" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac7" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac8" Type="System.Single" DbType="Float" CanBeNull="true" />
+      <Column Name="Bac9" Type="System.Single" DbType="Float" CanBeNull="true" />      
+      <Column Name="Bac10" Type="System.Single" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  
+  <Table Name="dbo.MucXang" Member="MucXangs">
+    <Type Name="MucXang">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Stt" Type="System.Int32" DbType="Int IDENTITY NOT NULL" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NgayApDung" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Muc1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Muc2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Muc3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Muc4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+
+  <Table Name="dbo.ChamCong2" Member="ChamCong2s">
+    <Type Name="ChamCong2">
+      <Column Name="SoThuTu" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" IsDbGenerated="true"/>
+      <Column Name="MaNhanVien" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false"/>
+      <Column Name="TenNhanVien" Type="System.String" DbType="NVarChar(100)" CanBeNull="true"/>
+      <Column Name="SoGioTangCa" Type="System.Int32" DbType="Int" CanBeNull="true"/>
+      <Column Name="LuongCoBan" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="TroCapDiLai" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="TroCapNhaO" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="TienHieuSuat" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="BaoHiemXaHoi" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="BaoHiemYTe" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="BaoHiemTuNguyen" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="PhiCongDoan" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Column Name="ThucLinh" Type="System.Decimal" DbType="Decimal(18, 2)" CanBeNull="true"/>
+      <Association Name="FK_ChamCong2_NhanVien" Member="NhanVien" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="NhanVien1" IsForeignKey="true"/>
+    </Type>
+  </Table>
+
+</Database>

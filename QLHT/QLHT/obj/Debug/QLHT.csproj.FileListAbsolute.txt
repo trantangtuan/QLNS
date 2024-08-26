@@ -1,0 +1,77 @@
+G:\QLHT\QLHT\bin\Debug\QLHT.exe.config
+G:\QLHT\QLHT\bin\Debug\QLHT.exe
+G:\QLHT\QLHT\bin\Debug\QLHT.pdb
+G:\QLHT\QLHT\obj\Debug\QLHT.csproj.AssemblyReference.cache
+G:\QLHT\QLHT\obj\Debug\QLHT.csproj.SuggestedBindingRedirects.cache
+G:\QLHT\QLHT\obj\Debug\QLHT.Form1.resources
+G:\QLHT\QLHT\obj\Debug\QLHT.Properties.Resources.resources
+G:\QLHT\QLHT\obj\Debug\QLHT.QLDM.resources
+G:\QLHT\QLHT\obj\Debug\QLHT.csproj.GenerateResource.cache
+G:\QLHT\QLHT\obj\Debug\QLHT.csproj.CoreCompileInputs.cache
+G:\QLHT\QLHT\obj\Debug\QLHT.exe
+G:\QLHT\QLHT\obj\Debug\QLHT.pdb
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\bin\Debug\QLHT.exe.config
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\bin\Debug\QLHT.exe
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\bin\Debug\QLHT.pdb
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.csproj.AssemblyReference.cache
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.Form1.resources
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.Properties.Resources.resources
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.QLDM.resources
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.csproj.GenerateResource.cache
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.csproj.CoreCompileInputs.cache
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.exe
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.pdb
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.addPhongBan.resources
+C:\Users\NGOCQUAN\Downloads\QLHT\QLHT\obj\Debug\QLHT.repairPhongBan.resources
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\bin\Debug\QLHT.exe.config
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\bin\Debug\QLHT.exe
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\bin\Debug\QLHT.pdb
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.addPhongBan.resources
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.Form1.resources
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.Properties.Resources.resources
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.QLDM.resources
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.repairPhongBan.resources
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.exe
+C:\Users\admin\Downloads\New folder\QLHT\QLHT\obj\Debug\QLHT.pdb
+E:\C#\ProjectVS2017\QLHT\QLHT\bin\Debug\QLHT.exe.config
+E:\C#\ProjectVS2017\QLHT\QLHT\bin\Debug\QLHT.exe
+E:\C#\ProjectVS2017\QLHT\QLHT\bin\Debug\QLHT.pdb
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.csprojAssemblyReference.cache
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.addPhongBan.resources
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.Form1.resources
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.Properties.Resources.resources
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.QLDM.resources
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.repairPhongBan.resources
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.csproj.GenerateResource.cache
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.csproj.CoreCompileInputs.cache
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.exe
+E:\C#\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.pdb
+E:\CSharp\ProjectVS2017\QLHT\QLHT\bin\Debug\QLHT.exe.config
+E:\CSharp\ProjectVS2017\QLHT\QLHT\bin\Debug\QLHT.exe
+E:\CSharp\ProjectVS2017\QLHT\QLHT\bin\Debug\QLHT.pdb
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.csprojAssemblyReference.cache
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.addPhongBan.resources
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.Properties.Resources.resources
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.QLDM.resources
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.repairPhongBan.resources
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.csproj.GenerateResource.cache
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.csproj.CoreCompileInputs.cache
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.exe
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.pdb
+E:\CSharp\ProjectVS2017\QLHT\QLHT\obj\Debug\QLHT.Login.resources
+D:\Documents\QLHT12\QLHT\QLHT\bin\Debug\QLHT.exe.config
+D:\Documents\QLHT12\QLHT\QLHT\bin\Debug\QLHT.exe
+D:\Documents\QLHT12\QLHT\QLHT\bin\Debug\QLHT.pdb
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.csproj.AssemblyReference.cache
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.addPhongBan.resources
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.Login.resources
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.Properties.Resources.resources
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.QLDM.resources
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.repairPhongBan.resources
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.csproj.GenerateResource.cache
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.csproj.CoreCompileInputs.cache
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.exe
+D:\Documents\QLHT12\QLHT\QLHT\obj\Debug\QLHT.pdb
